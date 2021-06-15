@@ -1,0 +1,25 @@
+# This file is used for scale some variables quickly
+#   XXXBefore 1
+#   XXXAfter  1.5
+# so we could calculate the ratio is 1.5/1
+
+RayleighLenBefore 42.0
+RayleighLenAfter  27.0
+
+# used for old LS optical model
+AbsorptionLenBefore 26.0
+AbsorptionLenAfter  77.0
+
+# Following is Test only
+AbsorptionLenUnitBefore 26.0*m
+AbsorptionLenUnitAfter  77.0*m
+
+# concentration. It will affect absorption length.
+# Geant4 don't recognize mg/L
+bisMSBConcentrationBefore 15.0
+bisMSBConcentrationAfter 5.0
+
+# used for new LS optical model
+LSLY_NewLSModelScale   0.9684
+LSLY_NewPMTModelScale  0.8432
+

@@ -1,0 +1,8 @@
+# This file is used for scale some variables quickly
+#   XXXBefore 1
+#   XXXAfter  1.5
+# so we could calculate the ratio is 1.5/1
+
+abs_before              2651.815*cm
+abs_after               40.0*m
+
